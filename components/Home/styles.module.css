@@ -1,0 +1,118 @@
+@counter-style underscores {
+    system: cyclic;
+    symbols: —;
+    suffix: " ";
+  }
+
+.bannerContainer {
+  width: 100%;
+  position: relative;
+}
+
+.bannerImage {
+  width: 100%;
+  height: 40vh;
+  z-index: 1000;
+}
+
+.triangle1 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  width: 0;
+  height: 0;
+  border-left: 0px solid #4097DB;
+  border-right: 99vw solid transparent;
+  border-bottom: 20vh solid #4097DB;
+  z-index: 1002;
+}
+
+
+.triangle2 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 0;
+    height: 0;
+    border-left: 99vw solid transparent;
+    border-right: 0px solid #53A7E9;
+    border-bottom: 15vh solid #53A7E9;
+    z-index: 1001;
+  
+}
+
+.squareBanner{
+    background-color: #4097DB;
+    text-align: left;
+    padding-left: 40px;
+    padding-bottom: 74px;
+    color: #fff;
+}
+
+.footerCard{
+    margin-top: 10px;
+}
+
+.introContainer{
+    margin: 20px 10px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 3em;
+}
+
+.coreValue{
+    margin-top: 20px;
+    padding: 50px 20px;
+    background: #F8F8F8;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+}
+
+.coreValue p{
+    color: #777777;
+}
+
+.title{
+    color: #029FE4;
+    text-align: center;
+}
+
+.listContainer{
+    margin-top: 30px;
+    margin-left: 20px;
+    list-style-type: underscores;
+}
+
+.listContainer li{
+    margin: 10px 0;
+}
+
+.outerSpecialContainer{
+    padding: 35px 20px;
+    background-color: #509FDD;
+}
+
+.innerSpecialContainer{
+    padding: 40px 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.slickContainer{
+    margin-top: 20px;
+}
+
+.itemSlick{
+    display: grid !important;
+    justify-items: center;
+}
+
+.itemSlick p{
+    margin: 20px;
+    color: #A7A7A7;
+
+}
